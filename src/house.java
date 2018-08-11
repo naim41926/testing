@@ -13,6 +13,15 @@ public class house {
 
 
 	public house() {
+	doors = 0;
+	windows = 0;
+	 floors = 0;
+	 garage = 0;
+	bedrooms =0;
+	 sqft=0;
+	bathroom=0;
+	worth=0;
+	construction_date=0; last_updated_date =0; property_taxes=0; numOccupants=0;
 		 }
 	
 	public void setDoors() {
