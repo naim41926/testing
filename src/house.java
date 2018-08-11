@@ -1,10 +1,10 @@
 
 public class house {
 	private int doors,windows,
-	 floors,
-	 garage,
+	floors,
+	garage,
 	bedrooms,
-	 sqft,
+	sqft,
 	bathroom,
 	worth,
 	construction_date, last_updated_date, property_taxes, numOccupants;
@@ -13,23 +13,73 @@ public class house {
 
 
 	public house() {
-	doors = 0;
-	windows = 0;
-	 floors = 0;
-	 garage = 0;
-	bedrooms =0;
-	 sqft=0;
-	bathroom=0;
-	worth=0;
-	construction_date=0; last_updated_date =0; property_taxes=0; numOccupants=0;
 		 }
-	
-	public void setDoors() {
-		int d = house.doors;
+	public house(int rooms,int bathroom, int floors) {
+		this.bedrooms = rooms;
+		this.bathroom = bathroom;
+		this.floors = floors;
 	}
 	
-	public int getDoors(int i) {
-		return i;
+	
+	public void setDoors(int d) {
+		doors = d;
 	}
+	
+	public int getDoors() {
+		return doors;
+	}
+	
+	public void setWindows(int d) {
+		windows = d;
+	}
+	
+	public int getWindows() {
+		return windows;
+	}
+	
+	public void setFloors(int d) {
+		floors = d;
+	}
+	
+	public int getFloors() {
+		return floors;
+	}
+	public void setWorth(int d) {
+		worth = d;
+	}
+	
+	public int getWorth() {
+		return worth;
+	}
+	public void setGarage(int d) {
+		garage = d;
+	}
+	
+	public int getGarage() {
+		return garage;
+	}
+	public void setSqft(int d) {
+		sqft = d;
+	}
+	
+	public int getSqft() {
+		return sqft;
+	}
+	public void setBedrooms(int d) {
+		bedrooms = d;
+	}
+	
+	public int getBedrooms() {
+		return bedrooms;
+	}
+	public void setBathrooms(int d) {
+		bathroom = d;
+	}
+	
+	public int getBathrooms() {
+		return bathroom;
+	}
+	
+	
 	
 }
