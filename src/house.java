@@ -1,18 +1,26 @@
 
 public class house {
+	private int doors,windows,
+	 floors,
+	 garage,
+	bedrooms,
+	 sqft,
+	bathroom,
+	worth,
+	construction_date, last_updated_date, property_taxes, numOccupants;
+	private String legal_owner,
+	town, state;
+
+
 	public house() {
-		int doors;
-		int windows;
-		int floors;
-		int garage;
-		int bedrooms;
-		int sqft;
-		int bathroom;
-		int worth;
-		int construction_date,last_updated_date;
-		int property_taxes,numOccupants;
-		String legal_owner;
-		String town;
-		String state;
+		 }
+	
+	public void setDoors() {
+		d = new doors;
 	}
+	
+	public int getDoors(int i) {
+		return i;
+	}
+	
 }
