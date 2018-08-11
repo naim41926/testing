@@ -16,7 +16,7 @@ public class house {
 		 }
 	
 	public void setDoors() {
-		d = new doors;
+		int d = house.doors;
 	}
 	
 	public int getDoors(int i) {
