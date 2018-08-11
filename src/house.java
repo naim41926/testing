@@ -1,16 +1,18 @@
 
 public class house {
 	public house() {
-		doors
-		windows
-		floors
-		garage
-		bedrooms
-		sqft
-		bathroom
-		worth 
-		construction date
-		last updated date
-		property taxes
+		int doors;
+		int windows;
+		int floors;
+		int garage;
+		int bedrooms;
+		int sqft;
+		int bathroom;
+		int worth;
+		int construction_date,last_updated_date;
+		int property_taxes,numOccupants;
+		String legal_owner;
+		String town;
+		String state;
 	}
 }
